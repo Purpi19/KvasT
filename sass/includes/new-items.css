@@ -1,0 +1,99 @@
+.new-items {
+  padding: 80px 0 111px;
+}
+
+.new-items__list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.new-items__title {
+  margin: 0 0 75px;
+}
+
+.new-items article {
+  border-right: 1px solid #e5e5e5;
+}
+
+.new-items article:first-of-type {
+  border-left: 1px solid #e5e5e5;
+}
+
+.kvast {
+  position: relative;
+  padding: 0 33px;
+}
+
+.kvast__title {
+  margin: 0 0 10px;
+}
+
+.kvast__info {
+  position: absolute;
+  top: 85px;
+  right: 0;
+  width: 200px;
+  padding: 0 25px;
+}
+
+.kvast__table {
+  border-collapse: collapse;
+  border: 1px solid #e5e5e5;
+}
+
+.kvast__characteristic, .kvast__value {
+  padding: 5px 10px;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  border: 1px solid #e5e5e5;
+}
+
+.kvast__characteristic {
+  min-width: 77px;
+}
+
+.kvast__value {
+  min-width: 72px;
+}
+
+.kvast__consist {
+  margin-top: 11px;
+  font-size: 14px;
+  line-height: 1.714;
+  color: #444444;
+}
+
+.kvast__pic {
+  margin-top: 29px;
+  margin-bottom: 11px;
+  margin-left: 10px;
+}
+
+.kvast__description {
+  margin: 0 0 60px;
+}
+
+.kvast .button:first-of-type {
+  margin-right: 4px;
+}
+
+.kvast__action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+
+.kvast__price {
+  margin-left: auto;
+}
+/*# sourceMappingURL=new-items.css.map */
